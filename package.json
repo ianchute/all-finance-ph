@@ -1,0 +1,23 @@
+{
+  "name": "all-finance-ph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianchute/all-finance-ph.git"
+  },
+  "author": "Ian Chu Te",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianchute/all-finance-ph/issues"
+  },
+  "homepage": "https://github.com/ianchute/all-finance-ph",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pg": "^6.1.0"
+  }
+}
