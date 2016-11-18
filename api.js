@@ -40,7 +40,7 @@ function serve(err) {
 
       if (err) {
         console.log(err)
-        res.send(null)
+        res.status(418).send(null)
       } else {
         res.send(result.rows)
       }
@@ -62,7 +62,7 @@ function serve(err) {
 
       if (err) {
         console.log(err)
-        res.send(null)
+        res.status(418).send(null)
       } else {
         res.send(result.rows)
       }
@@ -85,7 +85,7 @@ function serve(err) {
 
       if (err) {
         console.log(err)
-        res.send(null)
+        res.status(418).send(null)
       } else {
         res.send(result.rows)
       }
